@@ -40,7 +40,7 @@ Service Landing Page: Designed to highlight a service offering, with sections fo
 Portfolio Landing Page: A personal showcase page with sections for skills, work experience, and contact information.
 
 ## Live at 
-Click the url :
+Click the url : https://landing-page-rho-peach.vercel.app/
 
 ## 🤝 Contributing
 Feel free to fork the repository, create a branch, and submit a pull request with your improvements or new landing page templates. We encourage contributions and suggestions! 🎉
