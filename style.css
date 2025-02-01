@@ -45,6 +45,17 @@ nav {
     gap: 2rem;
 }
 
+.nav-button {
+    background-color: #2169e4;
+    color: #ffffff;
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: .9rem;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
 /* Hero Section Styles */
 .hero {
     background-image: url(https://cdn.dorahacks.io/static/files/1944579f924493faa7234dd40db8f4dc.png);
