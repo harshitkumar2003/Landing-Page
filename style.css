@@ -40,6 +40,7 @@ nav {
 }
 
 .nav-links {
+    margin: auto;
     display: flex;
     gap: 1.5rem;
 }
