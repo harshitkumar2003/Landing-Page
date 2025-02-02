@@ -49,7 +49,7 @@ nav {
     background-color: #a4bbe2;
     color: #0534ed;
     padding: .8rem 1.5rem;
-    border: none;
+    border: 2px solid blue;
     border-radius: 5px;
     font-size: .9rem;
     cursor: pointer;
