@@ -55,6 +55,12 @@ nav {
     cursor: pointer;
     margin: 0 4px;
 }
+.nav-button:hover {
+    background-color: #2705eb;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
 
 /* Hero Section Styles */
 .hero {
