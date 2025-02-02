@@ -55,11 +55,12 @@ nav {
     cursor: pointer;
     margin: 0 4px;
 }
+
 .nav-button:hover {
     background-color: #2705eb;
     color: #ffffff;
     border: 2px solid rgb(255, 255, 255);
-    
+
 }
 
 /* Hero Section Styles */
@@ -83,6 +84,7 @@ nav {
     font-size: 2rem;
     color: rgb(0, 149, 255);
 }
+
 .prize h4 {
     margin: 0%;
     font-size: .9rem;
@@ -108,7 +110,6 @@ nav {
 .hreg p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
-
     margin: .9rem 2rem;
 }
 
