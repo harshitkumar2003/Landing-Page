@@ -34,7 +34,7 @@ nav {
     padding: 1rem 2rem;
 }
 
-nav a {
+.logo a {
     text-decoration: none;
 }
 
@@ -47,6 +47,10 @@ nav a {
     margin: auto;
     display: flex;
     gap: 2rem;
+}
+ 
+.nav-links a {
+    text-decoration: none;
 }
 
 .nav-button {
