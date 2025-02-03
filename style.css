@@ -14,7 +14,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #b16a6a;
 }
 
 a:hover {
@@ -23,7 +23,7 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color:#db7725;
+    background-color:#ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,14 +54,14 @@ nav {
 }
 
 .nav-links :hover{
-color: rgb(139, 83, 0);
+color:#cb3535;
 }
 
 .nav-button {
-    background-color: #543A14;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #b16a6a;
     padding: .8rem 1.5rem;
-    border: 2px solid #ffffff;
+    border: 2px solid #b16a6a;
     border-radius: 5px;
     font-size: .9rem;
     cursor: pointer;
@@ -69,9 +69,9 @@ color: rgb(139, 83, 0);
 }
 
 .nav-button:hover {
-    background-color: #2705eb;
+    background-color: #b16a6a;
     color: #ffffff;
-    border: 2px solid rgb(255, 255, 255);
+  
 
 }
 
