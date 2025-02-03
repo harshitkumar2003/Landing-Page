@@ -53,6 +53,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-links :hover{
+color: rgb(0, 16, 139);
+}
+
 .nav-button {
     background-color: #ffffff;
     color: #0534ed;
