@@ -14,7 +14,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #2169e4;
+    color: #ffffff;
 }
 
 a:hover {
@@ -23,7 +23,7 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color:#CBA35C;
+    background-color:#db7725;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,14 +54,14 @@ nav {
 }
 
 .nav-links :hover{
-color: rgb(0, 16, 139);
+color: rgb(139, 83, 0);
 }
 
 .nav-button {
-    background-color: #ffffff;
-    color: #0534ed;
+    background-color: #543A14;
+    color: #ffffff;
     padding: .8rem 1.5rem;
-    border: 2px solid blue;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     font-size: .9rem;
     cursor: pointer;
