@@ -36,6 +36,7 @@ nav {
 
 .logo a {
     text-decoration: none;
+    text-shadow: 10px 20px 30px blue;
 }
 
 .logo {
