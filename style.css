@@ -94,7 +94,7 @@ color:#cb3535;
 .prize h1 {
     margin: 0%;
     font-size: 2rem;
-    color: rgb(0, 149, 255);
+    color:#b16a6a;
 }
 
 .prize h4 {
@@ -104,7 +104,7 @@ color:#cb3535;
 }
 
 .cta-button {
-    background-color: #2169e4;
+    background-color: #b16a6a;
     color: #ffffff;
     padding: .8rem 3rem;
     border: none;
@@ -171,7 +171,7 @@ input[type="email"] {
 }
 
 button[type="submit"] {
-    background-color: #2169e4;
+    background-color:#b16a6a;
     color: white;
     padding: 0.75rem;
     border: none;
@@ -180,12 +180,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #1d5bc7;
+    color:#b16a6a;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #2169e4;
+    background-color:#b16a6a;
     color: white;
     text-align: center;
     padding: 1rem 0;
