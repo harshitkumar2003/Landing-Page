@@ -23,7 +23,7 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color:#ffffff;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,13 +49,13 @@ nav {
     display: flex;
     gap: 2rem;
 }
- 
+
 .nav-links a {
     text-decoration: none;
 }
 
-.nav-links :hover{
-color:#cb3535;
+.nav-links :hover {
+    color: #cb3535;
 }
 
 .nav-button {
@@ -72,7 +72,7 @@ color:#cb3535;
 .nav-button:hover {
     background-color: #b16a6a;
     color: #ffffff;
-  
+
 
 }
 
@@ -95,7 +95,7 @@ color:#cb3535;
 .prize h1 {
     margin: 0%;
     font-size: 2rem;
-    color:#b16a6a;
+    color: #b16a6a;
 }
 
 .prize h4 {
@@ -112,8 +112,9 @@ color:#cb3535;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    margin: auto;  
+    margin: auto;
 }
+
 .hreg a {
     text-decoration: none;
 }
@@ -172,7 +173,7 @@ input[type="email"] {
 }
 
 button[type="submit"] {
-    background-color:#b16a6a;
+    background-color: #b16a6a;
     color: white;
     padding: 0.75rem;
     border: none;
@@ -181,12 +182,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    color:#b16a6a;
+    color: #b16a6a;
 }
 
 /* Footer Styles */
 footer {
-    background-color:#b16a6a;
+    background-color: #b16a6a;
     color: white;
     text-align: center;
     padding: 1rem 0;
