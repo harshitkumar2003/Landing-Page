@@ -182,7 +182,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-background-color: yellow;
+background-color: rgb(225, 211, 48);
 }
 
 /* Footer Styles */
