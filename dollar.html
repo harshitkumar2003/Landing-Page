@@ -7,17 +7,44 @@
     <title>Dollar</title>
 </head>
 <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     header {
-        border: 2px solid red;
+        border: 2px solid rgb(0, 238, 255);
         background-color: rgb(50, 21, 103);
         color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 3;
+        flex-direction: row;
+    }
+
+    .logo img {
+       
+        height: 80px;
+        width: 60px;
+    }
+
+    .nav-links {
+        display: flex;
+      flex-wrap: wrap;
+      flex-grow: 2;
+      justify-content: space-evenly;
+    }
+
+    .right [type=button] {
+
     }
 </style>
 
 <body>
     <header>
         <div class="logo">
-            <img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/https://cdn.gamma.app/hwf93ctqlq5t53b/generated-images/uohAv1fiN4geTqplmSzta.jpg" alt="logo-image">
+            <img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/https://cdn.gamma.app/hwf93ctqlq5t53b/generated-images/uohAv1fiN4geTqplmSzta.jpg"
+                alt="logo-image">
         </div>
         <nav>
             <div class="navbar">
