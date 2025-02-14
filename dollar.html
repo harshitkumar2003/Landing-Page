@@ -29,58 +29,61 @@
         width: 60px;
     }
 
-    /* .navbar {
-        margin-top: 30px;
-    }
-
-    .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 2;
-    }
-    
-    .links {
-        margin: 12px;
-        justify-content: space-evenly
-    } */
     nav {
-text-align: center;
-margin: 20px 0 0 ;
-padding: 10px 0;
-}
+        /* background-color: chartreuse; */
+        text-align: center;
+        margin: 20px 0 20px;
+        padding: 10px 0;
+        border: 2px solid white;
+        border-radius: 24px;
+    }
 
-nav ul{
-  list-style: none;
-  margin: 0 2px;
-  padding: 0;
-}
+    nav ul {
+        /* background-color: blue; */
+        list-style: none;
+        margin: 0 2px;
+        padding: 0;
+    }
 
-nav li {
-   display: inline-block;
-   padding: 5px 5px;
-}
+    nav li {
+        /* background-color: aqua; */
+        display: inline-block;
+        padding: 5px 5px;
+    }
 
-nav a {
-  font-weight: normal;
-  padding: 10px 5px;
-  font-size: .80em;
-}
+    nav a {
+        color: white;
+        font-weight: normal;
+        padding: 10px 45px;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        border-radius: 24px;
+        transform: scale(1.1);
+        box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+        background: linear-gradient(45deg, #212121, #252525);
+        background: radial-gradient(circle at bottom,
+                rgba(50, 100, 180, 0.5) 10%,
+                #212121 70%);
+    }
 
     /* From Uiverse.io by SalladShooter */
     .button {
-        margin: 15px 15px 0 0;
+        margin: 20px 20px 20px 0;
         cursor: pointer;
-        padding: 1em;
+        padding: .9em;
         font-size: 1em;
-        width: 7em;
+        width: 8em;
         aspect-ratio: 1/0.25;
         color: white;
         background: #212121;
         background-size: cover;
         background-blend-mode: overlay;
-        border-radius: 0.5em;
+        border-radius: 24px;
         outline: 0.1em solid #353535;
-        border: 0;
+        border: 2px solid white;
         box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease-in-out;
         position: relative;
@@ -95,6 +98,9 @@ nav a {
                 #212121 70%);
     }
 
+    aside {
+        background-color: antiquewhite;
+    }
 </style>
 
 <body>
