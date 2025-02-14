@@ -29,12 +29,42 @@
         width: 60px;
     }
 
+    /* .navbar {
+        margin-top: 30px;
+    }
+
     .nav-links {
         display: flex;
         flex-wrap: wrap;
         flex-grow: 2;
-        justify-content: space-evenly;
     }
+    
+    .links {
+        margin: 12px;
+        justify-content: space-evenly
+    } */
+    nav {
+text-align: center;
+margin: 20px 0 0 ;
+padding: 10px 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+nav li {
+   display: inline-block;
+   padding: 5px 5px;
+}
+
+nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: .80em;
+}
 
     /* From Uiverse.io by SalladShooter */
     .button {
@@ -76,10 +106,10 @@
         <nav>
             <div class="navbar">
                 <ul class="nav-links">
-                    <li class="active links">Home</li>
-                    <li class="links">About Us</li>
-                    <li class="links">Forms</li>
-                    <li class="links">Gallery</li>
+                    <li class="active links"><a href="#home">Home</a></li>
+                    <li class="links"><a href="#aobut">About</a></li>
+                    <li class="links"><a href="#forms">Forms</a></li>
+                    <li class="links"><a href="#gallery">Gallery</a></li>
                 </ul>
             </div>
         </nav>
