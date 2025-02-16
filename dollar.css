@@ -17,3 +17,9 @@ header {
     font-weight: 600;
     color: rgb(99, 99, 99);
   }
+
+.cookieDescription a {
+    --tw-text-opacity: 1;
+    color: rgb(59 130 246);
+  }
+  
