@@ -16,23 +16,23 @@ header {
     font-size: 0.7em;
     font-weight: 600;
     color: rgb(99, 99, 99);
-  }
+}
 
 .cookieDescription a {
     --tw-text-opacity: 1;
     color: rgb(59 130 246);
-  }
+}
 
 .cookieDescription a:hover {
     -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
-  }
-  
+}
+
 .buttonContainer {
     display: flex;
     gap: 20px;
     flex-direction: row;
-  }
+}
 
 .acceptButton {
     width: 80px;
@@ -46,7 +46,7 @@ header {
     border-radius: 20px;
     box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
     transition: all .6s ease;
-  }
+}
 
 .declineButton {
     width: 80px;
@@ -60,21 +60,21 @@ header {
     border-radius: 20px;
     box-shadow: 0 4px 6px -1px #bebdbd, 0 2px 4px -1px #bebdbd;
     transition: all .6s ease;
-  }
+}
 
-  .declineButton:hover {
+.declineButton:hover {
     background-color: #ebebeb;
     box-shadow: 0 10px 15px -3px #bebdbd, 0 4px 6px -2px #bebdbd;
     transition-duration: .2s;
-  }
-  
-  .acceptButton:hover {
+}
+
+.acceptButton:hover {
     background-color: #9173ff;
     box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
     transition-duration: .2s;
-  }
+}
 
-  .logo img {
+.logo img {
     mix-blend-mode: luminosity;
     height: 80px;
     width: 60px;
@@ -120,8 +120,8 @@ nav a:hover {
             #212121 70%);
 }
 
- /* From Uiverse.io by SalladShooter */
- .button {
+/* From Uiverse.io by SalladShooter */
+.button {
     margin: 20px 20px 20px 0;
     cursor: pointer;
     padding: .9em;
