@@ -10,3 +10,10 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.cookieDescription {
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(99, 99, 99);
+  }
