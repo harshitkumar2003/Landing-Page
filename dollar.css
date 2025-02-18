@@ -4,6 +4,7 @@
 }
 
 header {
+    margin: auto;
     height: 1.9rem;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(141, 108, 202);
