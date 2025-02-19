@@ -4,31 +4,17 @@
 }
 
 header {
+    /* justify-content: center; */
     /* margin: auto; */
     height: 1.9rem;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(141, 108, 202);
+    border: 2px solid rgb(243, 237, 237);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     display: flex;
 
 }
 
-.cookieDescription {
-    text-align: center;
-    font-size: 0.7em;
-    font-weight: 600;
-    color: rgb(99, 99, 99);
-}
-
-.cookieDescription a {
-    --tw-text-opacity: 1;
-    color: rgb(59 130 246);
-}
-
-.cookieDescription a:hover {
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline;
-}
+.headText {}
 
 .buttonContainer {
     display: flex;
@@ -40,40 +26,38 @@ header {
     margin: auto;
     width: 80px;
     height: 26px;
-    background-color: #7b57ff;
+    background-color: #ffffff;
     transition-duration: .2s;
     border: none;
-    color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
     transition: all .6s ease;
 }
 
 .declineButton {
     width: 80px;
     height: 26px;
-    background-color: #dadada;
+    background-color: #ffffff;
     transition-duration: .2s;
-    color: rgb(46, 46, 46);
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    box-shadow: 0 4px 6px -1px #bebdbd, 0 2px 4px -1px #bebdbd;
     transition: all .6s ease;
 }
 
-.declineButton:hover {
-    background-color: #ebebeb;
-    box-shadow: 0 10px 15px -3px #bebdbd, 0 4px 6px -2px #bebdbd;
+.acceptButton:hover {
+    color: #ffffff;
+    background-color: #e8e50e;
     transition-duration: .2s;
 }
 
-.acceptButton:hover {
-    background-color: #9173ff;
-    box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
+.declineButton:hover {
+    color: #ffffff;
+    background-color: #e73922;
     transition-duration: .2s;
 }
 
