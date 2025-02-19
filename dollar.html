@@ -5,56 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dollar</title>
+    <!-- stylsheet link -->
     <link rel="stylesheet" href="dollar.css">
 </head>
 
 <body>
+    <!-- header tag for cookies -->
     <header>
+        <!-- header moving text -->
         <div class="headText">
-            <marquee direction="left">We use cookies to ensure that we give you the best experience on
-                our website.</marquee>
-        </div>
+            <marquee behaviour="rotate" direction="left">We use cookies to ensure that we give you the best experience on
+                our website Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda fuga nulla enim consequatur facilis, doloremque id. Ab eligendi facilis aliquid, ea voluptatem sequi, nam eius hic illum, labore iste?</marquee>
+        </div> <!-- head text closed -->
 
+        <!-- header accept, decline buttons -->
         <div class="buttonContainer">
+            <!-- allow -->
             <button class="acceptButton">Allow</button>
+            <!-- decline -->
             <button class="declineButton">Decline</button>
-        </div>
-    </header>
+        </div> <!-- button container closed  -->
+    </header> <!-- header tag closed -->
+
+    <!-- nav for navbar menu -->
     <nav>
+        <!-- logo container -->
         <div class="logo">
+            <!-- img tag and url -->
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-vIEyOqCCareUTvkJTnGqDVuubISW2HrnQ&s"
                 alt="logo-image">
-        </div>
+        </div> <!-- logo container closed -->
 
+        <!-- navbar for menu links -->
         <div class="navbar">
+            <!-- links  -->
             <ul class="nav-links">
                 <li class="active links"><a href="#home">Home</a></li>
                 <li class="links"><a href="#aobut">About</a></li>
                 <li class="links"><a href="#forms">Forms</a></li>
                 <li class="links"><a href="#gallery">Gallery</a></li>
-            </ul>
-        </div>
-        <div class="right">
-            <button class="button">Login</button>
-        </div>
-    </nav>
+            </ul> <!-- links closed -->
+        </div> <!-- navbar closed -->
 
-    <section class="home">
-        <aside>
-            <div class="sidebar">
-                <h2>More Events</h2>
-                <h3>AWS</h3>
-                <h4>Amazon</h4>
-                <h5>Google</h5>
-                <h6>Accenture</h6>
-            </div>
-        </aside>
-        <main>
-            <div class="main-content">
-                <h2>More Events</h2>
-            </div>
-        </main>
-    </section>
+        <!-- right container for buttons -->
+        <div class="right">
+            <!-- Login/Register button -->
+            <button class="button">Login</button>
+        </div> <!-- right container closed -->
+    </nav> <!-- nav -->
+
+
+    <aside>
+        <div class="sidebar">
+            <h2>Filter Items</h2>
+            <input type="checkbox" name="AWS" id="">
+            <input type="checkbox" name="Amazon" id="">
+            <input type="checkbox" name="Accenture" id="">
+            <input type="checkbox" name="Google" id="">
+            <input type="checkbox" name="Deloitte" id="">    
+        </div>
+    </aside>
+
+    <article>
+        <div class="main-content">
+            <h2>More Events</h2>
+        </div>
+    </article>
 
 </body>
 
