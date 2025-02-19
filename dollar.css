@@ -75,7 +75,7 @@ nav {
 }
 
 .logo {
-    margin: 0 20px ;
+    margin: 0 20px;
 }
 
 .logo img {
@@ -108,8 +108,7 @@ nav a {
 }
 
 nav a:hover {
-
-   
+   color: red;
 }
 
 .right {
