@@ -75,13 +75,11 @@ nav {
 }
 
 .logo {
-    margin: 0 20px;
-}
-
-.logo img {
-    mix-blend-mode: luminosity;
-    height: 50px;
-    width: 60px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: fantasy;
+    margin: auto;
+    text-align: left;
 }
 
 .navbar {
@@ -108,11 +106,11 @@ nav a {
 }
 
 nav a:hover {
-   color: red;
+    color: red;
 }
 
 .right {
-    margin: 7px 20px 0 0;
+    margin: 5.5px 20px 0 0;
 }
 
 /* From Uiverse.io by SalladShooter */
@@ -142,8 +140,10 @@ nav a:hover {
             #212121 70%);
 }
 
-.home {
-    background-color: antiquewhite;
+
+
+aside {
+    background-color: rgb(198, 176, 146);
     display: flex;
-    border: 2px solid greenyellow;
+    border: 2px solid rgb(0, 0, 0);
 }
