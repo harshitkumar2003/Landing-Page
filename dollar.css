@@ -110,8 +110,9 @@ nav a:hover {
 }
 
 .right {
+    width: 20%;
     margin: auto;
-    gap: 12px;
+    gap: 20px;
     border: 2px solid yellow;
 
 }
@@ -127,7 +128,6 @@ nav a:hover {
     border: 2px solid white;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
-    position: relative;
 }
 
 .button1:hover {
@@ -145,7 +145,6 @@ nav a:hover {
     border: 2px solid white;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
-    position: relative;
 }
 
 .button2:hover {
