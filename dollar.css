@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 .right {
-    margin: 5.5px 20px 0 0;
+    margin:auto;
 }
 
 /* From Uiverse.io by SalladShooter */
@@ -134,10 +134,10 @@ nav a:hover {
 .button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
-    background: linear-gradient(45deg, #212121, #252525);
+    background: linear-gradient(45deg, #c46c6c, #9c004e);
     background: radial-gradient(circle at bottom,
-            rgba(50, 100, 180, 0.5) 10%,
-            #212121 70%);
+            rgba(220, 183, 0, 0.5) 10%,
+            #3b0505 70%);
 }
 
 
