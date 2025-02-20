@@ -55,7 +55,7 @@ header {
 
 .acceptButton:hover {
     color: #ffffff;
-    background-color: #e8e50e;
+    background-color: #0e91e8;
     transition-duration: .2s;
 }
 
@@ -111,6 +111,7 @@ nav a:hover {
 
 .right {
     margin: auto;
+    gap: 12px;
     border: 2px solid yellow;
 
 }
