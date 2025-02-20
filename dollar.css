@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 .right {
-    margin:auto;
+    margin: auto;
     border: 2px solid yellow;
 
 }
@@ -118,44 +118,36 @@ nav a:hover {
 
 /* From Uiverse.io by SalladShooter */
 .button1 {
+    width: 5em;
     padding: 7px;
     font-size: 1em;
-    width: 5em;
     color: rgb(255, 255, 255);
     background: #1a1919;
-    border-radius: 15px;
-    outline: 0.1em solid #353535;
     border: 2px solid white;
-    box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
     transition: all 0.3s ease-in-out;
     position: relative;
 }
 
 .button1:hover {
-    box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
-    background-color: #ff0000;
     color: #ffffff;
+    background-color: #ff0000;
     border: 2px solid white;
 }
+
 .button2 {
+    width: 10em;
     padding: 8px;
     font-size: 1em;
-    width: 10em;
-    aspect-ratio: 1/0.25;
     color: rgb(255, 255, 255);
     background: #1a1919;
-    background-size: cover;
-    background-blend-mode: overlay;
-    border-radius: 15px;
-    outline: 0.1em solid #353535;
     border: 2px solid white;
-    box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
     transition: all 0.3s ease-in-out;
     position: relative;
 }
 
 .button2:hover {
-    box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
     background-color: #0033ff;
     color: #ffffff;
     border: 2px solid white;
