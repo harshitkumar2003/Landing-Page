@@ -115,10 +115,10 @@ nav a:hover {
 
 .right {
     position: relative;
-    left: 5rem;
+    left: 3.5rem;
     width: 25%;
     display: flex;
-    gap: 19px;
+    gap: 15px;
     flex-direction: row;
     margin: auto;
     /* border: 2px solid yellow; */
@@ -130,7 +130,7 @@ nav a:hover {
     font-size: 1em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
-    background: #1a1919;
+    background: transparent;
     border: 2px solid white;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
@@ -143,12 +143,12 @@ nav a:hover {
 }
 
 .button2 {
-    width: 10em;
+    width: 12em;
     padding: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
     color: rgb(255, 255, 255);
-    background: #1a1919;
+    background: transparent;
     border: 2px solid white;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
@@ -163,8 +163,21 @@ nav a:hover {
 
 /*----------------------------------------
 ---------- aside styling sidebar -------*/
-aside {
-    background-color: rgb(198, 176, 146);
+.home {
     display: flex;
-    border: 2px solid rgb(0, 0, 0);
 }
+
+.sidebar {
+    width: 20%;
+}
+.sidebar h2 {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(232, 241, 242);
+}
+
+.h-bar {
+    width: 40%;
+    margin: auto;
+}
+
