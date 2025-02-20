@@ -75,6 +75,7 @@ nav {
 }
 
 .logo {
+    /* border: 1px solid white; */
     color: #ffffff;
     font-size: 3rem;
     font-family: fantasy;
@@ -84,38 +85,45 @@ nav {
 
 .navbar {
     margin: auto;
+    /* border: 1px solid white; */
 }
 
 nav ul {
+    /* border: 1px solid rgb(255, 28, 28); */
     list-style: none;
     padding: 0;
 }
 
 nav li {
+    /* border: 1px solid yellow; */
     display: inline-block;
-    padding: 5px 5px;
+    padding: 5px 12px;
 }
 
 nav a {
+    /* border: 1px solid green; */
     color: white;
     font-weight: bold;
-    padding: 10px 45px;
+    padding: 3px 20px;
     font-size: 1.2rem;
     text-decoration: none;
-    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 nav a:hover {
     color: red;
 }
 
+input [type=]
+
 .right {
+    position: relative;
+    left: 6rem;
     width: 25%;
     display: flex;
     gap: 19px;
     flex-direction: row;
     margin: auto;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .button1 {
