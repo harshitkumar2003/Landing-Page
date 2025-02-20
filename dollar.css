@@ -142,35 +142,29 @@ nav a:hover {
     border: 2px solid white;
 }
 
-.button2 {
+.search {
     width: 12em;
-    padding: 8px;
+    padding: 7px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
     color: rgb(255, 255, 255);
     background: transparent;
     border: 2px solid white;
     border-radius: 15px;
-    transition: all 0.3s ease-in-out;
 }
-
-.button2:hover {
-    background-color: #0033ff;
-    color: #ffffff;
-    border: 2px solid white;
-}
-
 
 /*----------------------------------------
 ---------- aside styling sidebar -------*/
 .home {
     display: flex;
+    border: 2px solid red;
 }
 
-.sidebar {
+.filters{
+    border: 2px solid blue;
     width: 20%;
 }
-.sidebar h2 {
+.filters h2 {
     text-align: center;
     padding: 25px;
     background-color: rgb(232, 241, 242);
@@ -180,4 +174,14 @@ nav a:hover {
     width: 40%;
     margin: auto;
 }
+
+ .filter-search {
+    border: 2px solid green;
+ }
+
+ input[type=search] {
+    padding: 8px;
+    text-align: center;
+ }
+
 
