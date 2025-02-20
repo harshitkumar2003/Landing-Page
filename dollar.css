@@ -175,12 +175,3 @@ nav a:hover {
     width: 40%;
     margin: auto;
 }
-
-.filter-search {
-    border: 2px solid green;
-}
-
-input[type=search] {
-    padding: 8px;
-    text-align: center;
-}
