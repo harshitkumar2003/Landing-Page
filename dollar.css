@@ -128,6 +128,7 @@ nav a:hover {
     width: 6em;
     padding: 7px;
     font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
     background: #1a1919;
     border: 2px solid white;
@@ -144,6 +145,7 @@ nav a:hover {
 .button2 {
     width: 10em;
     padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
     color: rgb(255, 255, 255);
     background: #1a1919;
