@@ -115,7 +115,7 @@ nav a:hover {
 
 .right {
     position: relative;
-    left: 6rem;
+    left: 5rem;
     width: 25%;
     display: flex;
     gap: 19px;
@@ -125,7 +125,7 @@ nav a:hover {
 }
 
 .button1 {
-    width: 5em;
+    width: 6em;
     padding: 7px;
     font-size: 1em;
     color: rgb(255, 255, 255);
