@@ -147,7 +147,7 @@ nav a:hover {
 
 .search-icon {
     position: absolute;
-    right: 10px; /* Adjust as needed for spacing */
+    left: 10px; /* Adjust as needed for spacing */
     top: 50%;
     transform: translateY(-50%);
     color: white; /* Change color as needed */
