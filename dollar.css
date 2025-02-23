@@ -115,6 +115,14 @@ nav a:hover {
     flex-direction: row;
     margin: auto;
 }
+.right {
+    position: relative;
+    left: 3.5rem;
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
 
 .button1 {
     width: 6em;
