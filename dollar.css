@@ -161,3 +161,9 @@ nav a:hover {
     height: 100%;
     background-image: url("https://img.freepik.com/free-photo/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background_56104-2314.jpg");
 }
+
+.home .heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    
+}
