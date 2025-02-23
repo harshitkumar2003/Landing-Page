@@ -97,7 +97,6 @@ nav li {
 nav a {
     color: white;
     font-weight: bold;
-    /* padding: 3px 20px; */
     font-size: 1.2rem;
     text-decoration: none;
 }
@@ -156,7 +155,6 @@ nav a:hover {
 /*---------------------------------------- 
 ---------- aside styling sidebar -------*/
 .home {
-    /* display: flex; */
     border: 2px solid red;
     height: 100%;
     background-image: url("https://img.freepik.com/free-photo/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background_56104-2314.jpg");
@@ -165,5 +163,19 @@ nav a:hover {
 .home .heading {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4rem;
-    
+}
+
+/* New styles for registration button */
+.register-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-button:hover {
+    background-color: #45a049;
 }
