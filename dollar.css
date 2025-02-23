@@ -159,19 +159,3 @@ nav a:hover {
     display: flex;
     border: 2px solid red;
 }
-
-.filters {
-    border: 2px solid blue;
-    width: 20%;
-}
-
-.filters h2 {
-    text-align: center;
-    padding: 25px;
-    background-color: rgb(232, 241, 242);
-}
-
-.h-bar {
-    width: 40%;
-    margin: auto;
-}
