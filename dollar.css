@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/*---------------------------------------
+/*--------------------------------------- 
 ------------ Header objects -----------*/
 header {
     justify-content: space-between;
@@ -12,7 +12,6 @@ header {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     display: flex;
-
 }
 
 .headText {
@@ -65,17 +64,15 @@ header {
     transition-duration: .2s;
 }
 
-/*-----------------------------------------
+/*----------------------------------------- 
 ------------ Nav styling ----------------*/
 nav {
     background-color: rgb(27, 29, 24);
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo {
-    /* border: 1px solid white; */
     color: #ffffff;
     font-size: 3rem;
     font-family: fantasy;
@@ -85,23 +82,19 @@ nav {
 
 .navbar {
     margin: auto;
-    /* border: 1px solid white; */
 }
 
 nav ul {
-    /* border: 1px solid rgb(255, 28, 28); */
     list-style: none;
     padding: 0;
 }
 
 nav li {
-    /* border: 1px solid yellow; */
     display: inline-block;
     padding: 5px 12px;
 }
 
 nav a {
-    /* border: 1px solid green; */
     color: white;
     font-weight: bold;
     padding: 3px 20px;
@@ -121,7 +114,6 @@ nav a:hover {
     gap: 15px;
     flex-direction: row;
     margin: auto;
-    /* border: 2px solid yellow; */
 }
 
 .button1 {
@@ -153,7 +145,15 @@ nav a:hover {
     border-radius: 15px;
 }
 
-/*----------------------------------------
+/* New styles for search icon alignment */
+.search-icon {
+    position: absolute; /* Positioning the icon */
+    right: 10px; /* Adjust as needed */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
+
+/*---------------------------------------- 
 ---------- aside styling sidebar -------*/
 .home {
     display: flex;
