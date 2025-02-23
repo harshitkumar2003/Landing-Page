@@ -145,14 +145,22 @@ nav a:hover {
     border-radius: 15px;
 }
 
-/* New styles for search icon alignment */
 .search-icon {
-    position: absolute; /* Positioning the icon */
-    right: 10px; /* Adjust as needed */
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust for vertical centering */
+    position: absolute;
+    right: 10px; /* Adjust as needed for spacing */
+    top: 50%;
+    transform: translateY(-50%);
+    color: white; /* Change color as needed */
 }
 
+.right {
+    position: relative;
+    left: 3.5rem;
+    width: 25%;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
 /*---------------------------------------- 
 ---------- aside styling sidebar -------*/
 .home {
