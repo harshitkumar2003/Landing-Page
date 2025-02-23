@@ -153,14 +153,6 @@ nav a:hover {
     color: white; /* Change color as needed */
 }
 
-.right {
-    position: relative;
-    left: 3.5rem;
-    width: 25%;
-    display: flex;
-    gap: 15px;
-    flex-direction: row;
-}
 /*---------------------------------------- 
 ---------- aside styling sidebar -------*/
 .home {
