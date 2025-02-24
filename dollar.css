@@ -170,7 +170,7 @@ nav a:hover {
 }
 
 #head2 {
-    padding: 10px 0 10px 0;
+    /* padding: 10px 0 1px 0; */
     text-align: center;
     text-transform: capitalize;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
