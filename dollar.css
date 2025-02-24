@@ -156,8 +156,9 @@ nav a:hover {
 ---------- aside styling sidebar -------*/
 .home {
     background-image: url("https://wallpapers.com/images/hd/abstract-black-3d-x26em8mm6m7f7zc6.jpg");
-    /* border: 2px solid red; */
-    /* max-height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 
 }
