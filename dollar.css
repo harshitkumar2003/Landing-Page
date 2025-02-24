@@ -162,6 +162,10 @@ nav a:hover {
     text-align: center;
 
 }
+ 
+.heading {
+    color: #ffffff;
+}
 
 #head1 {
     padding: 5.1rem 0 0;
