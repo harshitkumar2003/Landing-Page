@@ -219,7 +219,7 @@ nav a:hover {
 }
 
 .services {
-    margin: 12px 0 12px;
+    padding: 12px 0 12px;
     border: 2px solid red;
 }
 
@@ -232,6 +232,7 @@ nav a:hover {
 
 .box {
     border: 2px solid blue;
+
     height: 200px;
     width: 250px;
 }
