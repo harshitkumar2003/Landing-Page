@@ -146,10 +146,12 @@ nav a:hover {
 
 .search-icon {
     position: absolute;
-    right: 9rem; /* Adjust as needed for spacing */
+    right: 9rem;
+    /* Adjust as needed for spacing */
     top: 50%;
     transform: translateY(-50%);
-    color: white; /* Change color as needed */
+    color: white;
+    /* Change color as needed */
 }
 
 /*---------------------------------------- 
@@ -161,7 +163,7 @@ nav a:hover {
     background-size: cover;
     text-align: center;
 }
- 
+
 .heading {
     background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true");
     color: #ffffff;
@@ -170,7 +172,7 @@ nav a:hover {
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     -webkit-font-smoothing: antialiased;
-  
+
 }
 
 #head1 {
@@ -199,8 +201,9 @@ nav a:hover {
 
 /* New styles for registration button */
 .register-button {
-    margin: 3rem 0 3rem ;
-    background-color: #fd0606; /* Green */
+    margin: 3rem 0 3rem;
+    background-color: #fd0606;
+    /* Green */
     color: white;
     padding: 15px 20px;
     border: none;
