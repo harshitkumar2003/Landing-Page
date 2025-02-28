@@ -221,7 +221,7 @@ nav a:hover {
     border: 2px solid red;
  }
 
- .container {
+ .container1, .container2 {
     border: 2px solid yellow;
  }
 
