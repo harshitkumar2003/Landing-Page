@@ -217,16 +217,19 @@ nav a:hover {
     background-color: dodgerblue;
 
 }
- .services {
-    border: 2px solid red;
- }
 
- .container1, .container2 {
+.services {
+    border: 2px solid red;
+}
+
+.container1,
+.container2 {
     border: 2px solid yellow;
     display: flex;
- }
+}
 
- .box {
+.box {
     border: 2px solid blue;
     height: 50px;
- }
+    width: 50px;
+}
