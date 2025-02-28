@@ -233,7 +233,7 @@ nav a:hover {
 .box {
     border: 2px solid blue;
 margin: 12px;
-pa
+padding: 12px;
     height: 200px;
     width: 250px;
 }
