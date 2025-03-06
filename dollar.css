@@ -30,7 +30,7 @@ header {
 .acceptButton {
     width: 80px;
     height: 26px;
-    border: #0e91e8;
+    border: 2px solid #0e91e8;
     /* background-color: #ffffff; */
     transition-duration: .2s;
     border: none;
@@ -44,7 +44,7 @@ header {
 .declineButton {
     width: 80px;
     height: 26px;
-    border: #e73922;
+    border: 2px solid #e73922;
     /* background-color: #ffffff; */
     transition-duration: .2s;
     color: rgb(0, 0, 0);
