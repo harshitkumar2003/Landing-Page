@@ -9,7 +9,7 @@
 header {
     justify-content: space-between;
     height: 2rem;
-    border: 2px solid fuchsia;
+    border: 1px solid fuchsia;
     /* background-color: rgb(0, 0, 0); */
     color: rgb(255, 255, 255);
     display: flex;
@@ -31,7 +31,7 @@ header {
 .acceptButton {
     width: 80px;
     height: 26px;
-    border: 2px solid #0e91e8;
+    border: 1px solid #0e91e8;
     /* background-color: #ffffff; */
     transition-duration: .2s;
     /* border: none; */
@@ -45,7 +45,7 @@ header {
 .declineButton {
     width: 80px;
     height: 26px;
-    border: 2px solid #e73922;
+    border: 1px solid #e73922;
     /* background-color: #ffffff; */
     transition-duration: .2s;
     color: rgb(0, 0, 0);
@@ -72,13 +72,13 @@ header {
 ------------ Nav styling ----------------*/
 nav {
     /* background-color: rgb(27, 29, 24); */
-    border: 2px solid darkorange;
+    border: 1px solid darkorange;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    border: 2px solid darkcyan;
+    border: 1px solid darkcyan;
     /* color: #ffffff; */
     font-size: 3rem;
     font-family: fantasy;
