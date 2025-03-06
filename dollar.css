@@ -56,15 +56,15 @@ header {
 }
 
 .acceptButton:hover {
-    color: #ffffff;
+    /* color: #ffffff; */
     /* background-color: #0e91e8; */
-    transition-duration: .2s;
+    /* transition-duration: .2s; */
 }
 
 .declineButton:hover {
     color: #ffffff;
     /* background-color: #e73922; */
-    transition-duration: .2s;
+    /* transition-duration: .2s; */
 }
 
 /*----------------------------------------- 
