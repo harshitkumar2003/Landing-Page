@@ -57,13 +57,13 @@ header {
 }
 
 .acceptButton:hover {
-    color: #ffffff;
+    /* color: #ffffff;date */
     /* background-color: #0e91e8; */
     transition-duration: .2s;
 }
 
 .declineButton:hover {
-    color: #ffffff;
+    /* color: #ffffff; */
     /* background-color: #e73922; */
     transition-duration: .2s;
 }
@@ -156,27 +156,31 @@ nav a:hover {
 }
 
 .search-icon {
+    border: 1px solid #0e91e8;
     position: absolute;
     right: 9rem;
     /* Adjust as needed for spacing */
     top: 50%;
     transform: translateY(-50%);
-    color: rgb(0, 176, 192);
+    /* color: rgb(0, 176, 192); */
     /* Change color as needed */
 }
 
 /*---------------------------------------- 
 ---------- aside styling sidebar -------*/
 .home {
-    background-image: url("https://img.freepik.com/premium-photo/black-stone-sand-texture-display-mock-up_386188-1514.jpg?semt=ais_hybrid");
+    /* background-image: url("https://img.freepik.com/premium-photo/black-stone-sand-texture-display-mock-up_386188-1514.jpg?semt=ais_hybrid"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border: 2px solid #e8700e;
+
 }
 
 .heading {
-    background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true");
+    border: 2px solid rgb(14, 232, 28);
+    /* background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true"); */
     color: #ffffff;
     background-position: center;
     -webkit-text-fill-color: transparent;
@@ -186,7 +190,7 @@ nav a:hover {
 
 }
 
-#head1 {
+#head1 {    border: 1px solid #0e91e8;
     padding: 5.1rem 0 0;
     text-align: center;
     text-transform: capitalize;
@@ -194,7 +198,7 @@ nav a:hover {
     font-size: 4rem;
 }
 
-#head2 {
+#head2 {    border: 1px solid #0e91e8;
     /* padding: 10px 0 1px 0; */
     text-align: center;
     text-transform: capitalize;
@@ -202,7 +206,7 @@ nav a:hover {
     font-size: 4rem;
 }
 
-#head3 {
+#head3 {    border: 1px solid #0e91e8;
     /* padding: 0; */
     text-align: center;
     text-transform: capitalize;
@@ -213,11 +217,10 @@ nav a:hover {
 /* New styles for registration button */
 .register-button {
     margin: 3rem 0 3rem;
-    background-color: #fd0606;
-    /* Green */
+    /* background-color: #fd0606; */
     color: white;
     padding: 15px 20px;
-    border: none;
+    border: 2px solid red;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -225,7 +228,7 @@ nav a:hover {
 
 .register-button:hover {
     transition: all 0.3s ease-in-out;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
 
 }
 
