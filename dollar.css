@@ -18,6 +18,7 @@ header {
 .headText {
     margin: auto;
     width: 82%;
+    color: black;
 }
 
 .buttonContainer {
@@ -70,7 +71,8 @@ header {
 /*----------------------------------------- 
 ------------ Nav styling ----------------*/
 nav {
-    background-color: rgb(27, 29, 24);
+    /* background-color: rgb(27, 29, 24); */
+    border: 2px solid darkorange;
     display: flex;
     justify-content: space-between;
 }
