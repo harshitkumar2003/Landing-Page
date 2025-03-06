@@ -92,6 +92,7 @@ nav {
 }
 
 nav ul {
+    border: 1px solid #1b3d54;
     list-style: none;
     padding: 0;
 }
