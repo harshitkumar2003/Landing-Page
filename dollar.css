@@ -78,7 +78,8 @@ nav {
 }
 
 .logo {
-    color: #ffffff;
+    border: 2px solid darkcyan;
+    /* color: #ffffff; */
     font-size: 3rem;
     font-family: fantasy;
     margin: auto;
@@ -87,6 +88,7 @@ nav {
 
 .navbar {
     margin: auto;
+    border: 1px solid pink;
 }
 
 nav ul {
