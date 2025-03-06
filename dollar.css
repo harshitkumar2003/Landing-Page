@@ -149,14 +149,14 @@ nav a:hover {
     padding: 7px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background: transparent;
     border: 2px solid rgb(89, 84, 84);
     border-radius: 15px;
 }
 
 .search-icon {
-    border: 1px solid #0e91e8;
+    border: 2px solid #0e91e8;
     position: absolute;
     right: 9rem;
     /* Adjust as needed for spacing */
