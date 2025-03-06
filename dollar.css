@@ -30,7 +30,7 @@ header {
 .acceptButton {
     width: 80px;
     height: 26px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     transition-duration: .2s;
     border: none;
     color: rgb(0, 0, 0);
