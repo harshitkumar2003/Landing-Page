@@ -33,7 +33,7 @@ header {
     border: 2px solid #0e91e8;
     /* background-color: #ffffff; */
     transition-duration: .2s;
-    border: none;
+    /* border: none; */
     color: rgb(0, 0, 0);
     cursor: pointer;
     font-weight: 600;
@@ -48,7 +48,7 @@ header {
     /* background-color: #ffffff; */
     transition-duration: .2s;
     color: rgb(0, 0, 0);
-    border: none;
+    /* border: none; */
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
@@ -58,13 +58,13 @@ header {
 .acceptButton:hover {
     color: #ffffff;
     /* background-color: #0e91e8; */
-    /* transition-duration: .2s; */
+    transition-duration: .2s;
 }
 
 .declineButton:hover {
     color: #ffffff;
     /* background-color: #e73922; */
-    /* transition-duration: .2s; */
+    transition-duration: .2s;
 }
 
 /*----------------------------------------- 
