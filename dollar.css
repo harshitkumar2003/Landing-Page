@@ -115,7 +115,8 @@ nav a:hover {
     color: red;
 }
 
-.right {
+.right {    
+    border: 1px solid #0e91e8;
     position: relative;
     left: 3.5rem;
     width: 25%;
