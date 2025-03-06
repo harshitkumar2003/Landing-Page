@@ -98,6 +98,7 @@ nav ul {
 }
 
 nav li {
+    border: 1px solid #5b6521;
     display: inline-block;
     padding: 5px 26px;
 }
