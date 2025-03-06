@@ -79,7 +79,7 @@ nav {
 
 .logo {
     border: 1px solid darkcyan;
-    /* color: #ffffff; */
+    color: #000000;
     font-size: 3rem;
     font-family: fantasy;
     margin: auto;
@@ -151,7 +151,7 @@ nav a:hover {
     font-size: 1em;
     color: rgb(255, 255, 255);
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(89, 84, 84);
     border-radius: 15px;
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
     /* Adjust as needed for spacing */
     top: 50%;
     transform: translateY(-50%);
-    color: white;
+    color: rgb(0, 176, 192);
     /* Change color as needed */
 }
 
