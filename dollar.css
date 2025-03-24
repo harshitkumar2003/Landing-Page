@@ -111,10 +111,6 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
-    /* color: red; */
-}
-
 .right {
     border: 1px solid #24b817;
     position: relative;
@@ -138,11 +134,11 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.button1:hover {
+/* .button1:hover {
     /* color: #ffffff; */
     /* background-color: #ff0000; */
-    /* border: 2px solid white; */
-}
+    /* border: 2px solid white;
+} */
 
 .search {
     width: 12em;
@@ -166,8 +162,6 @@ nav a:hover {
     /* Change color as needed */
 }
 
-/*---------------------------------------- 
----------- aside styling sidebar -------*/
 .home {
     /* background-image: url("https://img.freepik.com/premium-photo/black-stone-sand-texture-display-mock-up_386188-1514.jpg?semt=ais_hybrid"); */
     background-position: center;
@@ -185,7 +179,7 @@ nav a:hover {
     background-position: center;
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-font-smoothing: antialiased;
 
 }
